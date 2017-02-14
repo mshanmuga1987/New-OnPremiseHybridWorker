@@ -93,7 +93,7 @@ Param (
 
 # Machine
 [Parameter(Mandatory=$false)]
-[Credential] $Credential
+[PSCredential] $Credential
 )
 
 
